@@ -13,7 +13,7 @@ The extra-data section contains a small set of triples to define the meta schema
 
 
 # Datasets
-For SemLinker evaluation, we needed large number of high-volume datasets, where each dataset must meet two requirements: I) useable in personal data management context, ii) consists of relatively large number of attributes. Eventually, we limited our choice to 11 heterogeneous but semantically related datasets. For each dataset, we provide brief description about its contents; its attributes, few data samples, and what attributes we chosen for modeling (i.e. the partial unified view). Backbone, Twitter, Flickr, and Foursquare datasets are captured in realties API streaming, whereas, the rest of the datasets are publicly available online and can be accessed and downloaded using the following URLs:
+For SemLinker evaluation, we needed large number of high-volume datasets, where each dataset must meet two requirements: I) useable in personal data management context, ii) consists of relatively large number of attributes. Eventually, we limited our choice to 11 heterogeneous but semantically related datasets. For each dataset, we provide brief description about its contents; its attributes, few data samples, and what attributes we chosen for modeling (i.e. the partial unified view). Facebook, Twitter, Flickr, and Foursquare datasets are captured through real-time API streaming, whereas, the rest of the datasets are publicly available online and can be accessed and downloaded using the following URLs:
 
 
 https://archive.ics.uci.edu/ml/datasets/Heterogeneity+Activity+Recognition
@@ -29,10 +29,7 @@ http://ratings.food.gov.uk/open-data/
 https://www.getthedata.com/open-postcode-geo
 
 
-The folder "Data" includes all the used datasets without any preprocessing. The usage of these datasets is subject to the license agreements provided by their authors.
-
-
-The folder "Data" also contains information to describe how each dataset was tagged with a semantically corresponding ontological concept from schema.org, the mix collection of default properties provided by schema.org, as well as new extension properties we add to the used concepts (such as geo:latitude and geo:longitude). Information regarding how each ontological property is mapped to its semantically equivalent schema element in the particular dataset, are also provided here.
+The folder "Data" includes some of the used datasets without any preprocessing (only datasets below 25MB are allowed to be uploaded in github). The usage of these datasets is subject to the license agreements provided by the original authors. The folder "Data" also contains information to describe how each dataset was tagged with a semantically corresponding ontological concept from schema.org, the mix collection of default properties provided by schema.org, as well as new extension properties we add to the used concepts (such as geo:latitude and geo:longitude) from WGS84 ontology (https://www.w3.org/2003/01/geo/). Information regarding how each ontological property is mapped to its semantically equivalent schema element in the particular dataset, are also provided here.
 
 
 
