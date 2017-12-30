@@ -35,6 +35,9 @@ HAR_3 M:isInstanceOf :SensorReading .
 To this end, its SemLinker responsibility to map HAR-3 attributes to their semantically equivalent ontological properties in G:SensorReading. In optimal performance, SemLinker should output the following mappings:
 
  :id m:mapsTo IJ:index .
+ 
  :dateCreated m:mapsTo IJ:timestamp .
+ 
  :sensor-type m:mapsTo IJ:source .
+ 
  :reading m:mapsTo IJ:values .
