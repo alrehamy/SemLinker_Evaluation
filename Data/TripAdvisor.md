@@ -37,7 +37,7 @@ visited_on : The date of users visit to the restaurant.
 
 
 # Tagging
-During SemLinker evaluation, we tagged this dataset with the concept sc:Review, a default SCHEMA abstract concept. We use the following ontological properties to describe the tagging concept:
+During SemLinker evaluation, we tagged this dataset with the concept "sc:Review", a default SCHEMA abstract concept. We use the following ontological properties to describe the tagging concept:
 
 sc:identifier, the internal identifier of a review record.
 
