@@ -28,7 +28,7 @@ gt: the primitive activity performed by the user and sensed by the accelerometer
 
 
 # Tagging
-During SemLinker evaluation, we tagged this dataset with the concept G:SensorReading, a custom concept added to SemLinker global ontology and used to extend the abstract global concept sc:Dataset , that is default SCHEMA abstract concept, using the relation rdfs:subClassOf. The former concept is described by the following set of properties, note that each property is linked to G:SensorReading in SemLinker global ontology using the relation G:hasProperty.
+During SemLinker evaluation, we tagged this dataset with the concept "G:SensorReading", a custom concept added to SemLinker global ontology and used to extend the abstract global concept "sc:Dataset" , that is default SCHEMA abstract concept, using the relation "rdfs:subClassOf". The former concept is described by the following set of properties, note that each property is linked to "G:SensorReading" in SemLinker global ontology using the relation "G:hasProperty".
 
 "dc:id" : the id of the sensor reading record.
 
