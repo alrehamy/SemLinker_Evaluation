@@ -9,7 +9,7 @@ SemLinker utilizes schema.org as the backbone of its global schema (ontology). T
 
  
 
-The extra-data section contains a small set of triples to define the meta schema relations G:hesitated and G:hasProperty, as well as the data added to concepts described in the subsection section.
+The extra-data section contains a small set of triples to define the meta schema relations G:hesitated and G:hasProperty, as well as the RDF data added to concepts described in the following section.
 
 
 # Datasets
