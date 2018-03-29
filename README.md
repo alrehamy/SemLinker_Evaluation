@@ -1,6 +1,10 @@
 # SemLinker Evaluation Datasets
 
-SemLinker is an ontology based big data integration system for big data processing platforms which are expected to be operated by non-expert users, such as Personal Data Lake. SemLinker architecture is described a research paper to appear soon.
+SemLinker is an ontology based big data integration system for big data processing platforms which are expected to be operated by non-expert users, such as Personal Data Lake. SemLinker architecture is described in the following research paper:
+
+Alrehamy, Hassan; Walker, Coral (2018-03-26). "SemLinker: automating big data integration for casual users". Journal of Big Data. 5: 14. doi:10.1186/s40537-018-0123-x. ISSN 2196-1115.
+
+https://www.researchgate.net/publication/324030891_Personal_Data_Lake_SemLinker_automating_big_data_integration_for_casual_users
 
 In this git, we describe how to we configured SemLinker during the experimental evaluations explained in the above paper. The git aims to provide detailed descriptions regarding the following:
 
